@@ -15,6 +15,7 @@ async function readfile() {
     }
 }
 
+
 async function updatefile(content) {
     try {
         await fs.appendFile("data.json", content, "utf8");
