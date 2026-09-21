@@ -8,7 +8,8 @@ git config --global user.email "your.email@example.com"
 git add . or git add file name
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/bhoomika1812/FSD-BACKEND-CSE-16.git
+git remote add origin https://github.com/bhoomika1812/FSD-WORKSHOP--III.git
+git remote -v
 git push -u origin main
 
 git status
